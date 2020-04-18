@@ -1,0 +1,143 @@
+body{
+    background-color: rgba(247, 221, 175, 0.822);
+}
+.topnav{
+    background-color: none;
+    overflow: none;
+    font-family: monospace;
+    box-sizing: border-box;
+    border-color: black;
+    position: static;
+}
+.topnav a{
+    float:left;
+    color: rgb(47, 21, 104);
+    padding:14px 115px;
+    text-decoration: none;
+    font-size:20px;
+
+}
+.topnav a:hover{
+    border-top: none;
+    background-color: rgb(228, 99, 52);
+}
+.imag img{
+    margin-top: 3cm;
+    width:200px; 
+    height:250px;
+    border-radius: 50cm;
+    margin-left: 18.5cm;
+} 
+.intro{
+    text-align: center;
+    padding-top: .5cm;
+    font-family: monospace;
+    font-size: 20px;
+    color:  rgb(47, 21, 104);
+}
+.info{
+    margin-left: 3.5cm;
+    padding-top: 5cm;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(47, 21, 104);
+}
+.info2{
+    text-align: center;
+    padding-top: 5cm;
+    font-size: 20px;
+    font-family: monospace;
+    color:rgb(47, 21, 104);
+}
+.info3{
+    margin-left: 4cm;
+}
+.avail{
+    margin-left: 2.6cm;
+}
+.bio{
+    margin-left: 15cm;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(47, 21, 104);
+    padding-top: 5cm;
+}
+
+fieldset{
+    width: 25%;
+    padding: 10px;
+    border: 4px solid #f5f3f3;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(228, 99, 52);
+    position: static;
+    margin: auto;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+}
+
+div.container{
+    padding: 16px;
+}
+
+.head1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color:black;
+    padding-bottom: 0;
+    margin-left: 2.8cm;
+}
+
+label{
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    display:block;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow:ellipsis;
+    font-size: 90%;
+    padding-top: .1em;
+    padding-right: .25em;
+    width: 6em;
+    text-align: left;
+    float: left;
+    padding-bottom: .6em;
+}
+input[type=text] {
+    width: 100%;
+    padding: 17px 10px;
+    margin: 0;
+    border: 10px;
+    background-color:rgb(237, 242, 246);
+    border-radius:4px;
+    box-sizing: border-box;
+    margin-bottom:20px
+}
+input[type="submit"] {
+    box-sizing: border-box;
+    background-color: rgba(15, 148, 182, 0.918);
+    color: #fff;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: steelblue;
+    width: 100%;
+    font-size: 5mm;
+}
+
+input[type="submit"]:hover,
+input[type="submit"] :focus
+{
+    background: orangered;
+    transition: 250ms ease;
+}
+.foot{
+    font-family: monospace;
+    color: rgb(47, 21, 104);
+    text-align: center;
+    font-size: larger;
+}
